@@ -1,0 +1,25 @@
+@import '~tailwindcss/base';
+
+@import '~tailwindcss/components';
+
+@import '~tailwindcss/utilities';
+
+html,
+body {
+  width: 100%;
+  min-height: 100vh;
+  height: 100%;
+}
+
+body {
+  background-image: url('~assets/images/background.svg');
+  background-attachment: fixed;
+  background-repeat: repeat;
+  background-size: 40%;
+  background-color: #fff;
+}
+
+#__next {
+  width: 100%;
+  height: 100%;
+}
